@@ -1,0 +1,72 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item1-formulario {
+    background-color: #6a7579;
+    display: flex;
+    padding: 2%;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+ul {
+    display: flex;
+    gap: 200px;
+    list-style: none;
+    margin-left: 8vw;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    background-image: url("../imagens/fundo-azul.jpg");
+}
+
+section {
+    height: 60vh;
+}
+
+#sobre {
+    padding: 1%;
+}
+
+.NomeTexto {
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#foto img {
+    border-radius: 6%;
+    height: 200px;
+}
+
+p {
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+
+h1 {
+   font-size: 2vw 
+}
+
+.conteiner-nome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#skills {
+    padding: 40px;
+    font-size: 2vw;
+    font-weight: 600;
+}
