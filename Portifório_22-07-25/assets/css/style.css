@@ -30,7 +30,7 @@ main {
 }
 
 section {
-    height: 60vh;
+    height: 90vh;
 }
 
 #sobre {
@@ -38,7 +38,7 @@ section {
 }
 
 .NomeTexto {
-    padding: 80px;
+    padding: 5vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -46,7 +46,7 @@ section {
 
 #foto img {
     border-radius: 6%;
-    height: 200px;
+    height: 20vh;
 }
 
 p {
@@ -62,11 +62,34 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 1vh;
+}
+
+.linha {
+    width: 38vw;
+    height: 1vh;
 }
 
 #skills {
-    padding: 40px;
+    padding: 5vh;
     font-size: 2vw;
     font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10vh;
+    margin: 10vh;
+    font-size: 2.5vw;
+}
+
+hr {
+    height: 1vh;
+    background-color: #6a7579;
+}
+
+.projeto {
+    display: flex;
+    justify-content: center;
+    gap: 30vw;
 }
