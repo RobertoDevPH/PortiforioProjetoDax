@@ -91,5 +91,27 @@ hr {
 .projeto {
     display: flex;
     justify-content: center;
+    gap: 35vw;
+}
+
+#projeto1 {
+    font-size: 1.6vw;
+    margin-left: 0.1vw;
+}
+
+#projeto2 {
+    font-size: 1.6vw;
+    margin-left: 2.5vw;
+}
+
+#projetos {
+    height: 50vh;
+}
+
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 30vw;
+    height: 70vh;
 }
