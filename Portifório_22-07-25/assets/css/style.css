@@ -113,5 +113,31 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 30vw;
-    height: 70vh;
+    height: 45vh;
+}
+
+.item2-formulario {
+  align-items: center;
+}
+
+#fim {
+ background-color: #6a7579;
+
+ }
+
+#p1 {
+    font-size: 20px;
+    text-align: end;
+} 
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black ;
+    padding: 50px;
+}
+
+input {
+    height: 25px;
 }
